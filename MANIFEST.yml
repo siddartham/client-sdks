@@ -1,0 +1,22 @@
+manifest: "1.0"
+title: twitter-sdk
+description:
+type: documentation
+tags:
+  - Cerberus
+urls:
+  repository: https://github.com/siddartham/twitter-sdk
+maintainerEmail: reddy.siddartha53@gmail.com
+documents: &documents
+  documents:
+    - title: README
+      type: markdown
+      url: https://raw.githubusercontent.com/siddartham/twitter-sdk/main/README.md
+    - title: CONTRIBUTING
+      type: markdown
+      url: https://raw.githubusercontent.com/siddartham/twitter-sdk/main/CONTRIBUTING.md
+defaultVersion: "latest"
+versions:
+  "latest":
+    status: release
+    <<: *documents
